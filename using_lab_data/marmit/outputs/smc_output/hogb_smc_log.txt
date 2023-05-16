@@ -1,0 +1,15 @@
+---Information about the Lab Based Marmit Retrieval---
+Sample Name: hogb
+
+Best fit was observed in the following wavelength and angle
+
+Wavelengh = 1572.0
+Sensor Zenith = 0.0
+Sensor Azimuth = 72.0
+r**2 = 0.9176730428191785
+
+---Logistic function parameters for the best fit---
+
+K = 29.250449074482514
+psi = 8.03878863252593
+alpha = 3.742404574654335

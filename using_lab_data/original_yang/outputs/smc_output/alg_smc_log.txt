@@ -1,0 +1,16 @@
+---Information about the Lab Based Retrieval---
+Sample Name: alg
+
+Best fit was observed in the following wavelength and angle
+
+Index = 2072
+Wavelength = 2422.0
+Sensor Zenith = 60.0
+Sensor Azimuth = 36.0
+r**2 = 0.994908094806933
+
+---Logistic function parameters for the best fit---
+
+K = 23.905405469671976
+psi = 213.50579805891368
+alpha = 83.87253960475137

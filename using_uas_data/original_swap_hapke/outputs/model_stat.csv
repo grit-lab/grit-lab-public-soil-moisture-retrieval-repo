@@ -1,0 +1,19 @@
+Original (SWAP)-Hapke retrieval output stats
+
+Mean r2-val = 0.829
+Mean nrmse = 0.275
+
+St dev. r2-val = 0.075
+St dev. nrmse = 0.058
+
+Median r2-val = 0.847
+Median nrmse = 0.267
+
+Max r2-val = 0.952
+Min nrmse = 0.16
+
+Wavelength (nm) = 1292.54
+
+K-param (mean r2-val) = 20.022
+psi-param (mean r2-val) = 9.291
+alpha-param (mean r2-val) = 9.638

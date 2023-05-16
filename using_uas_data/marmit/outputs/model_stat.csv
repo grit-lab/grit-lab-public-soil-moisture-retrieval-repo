@@ -1,0 +1,19 @@
+MARMIT retrieval output stats
+
+Mean r2-val = 0.899
+Mean nrmse = 0.214
+
+St dev. r2-val = 0.029
+St dev. nrmse = 0.036
+
+Median r2-val = 0.903
+Median nrmse = 0.21
+
+Max r2-val = 0.953
+Min nrmse = 0.138
+
+Wavelength (nm) = 2192.35
+
+K-param (mean r2-val) = 20.4
+psi-param (mean r2-val) = 3.255
+alpha-param (mean r2-val) = 9.684

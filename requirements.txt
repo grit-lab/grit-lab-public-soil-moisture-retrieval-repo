@@ -1,0 +1,13 @@
+# Python version 3.8 is recommended
+# To install these packages, navigate to this directory in a terminal and type:
+# pip install -r requirements.txt
+
+lmfit==1.0.2
+matplotlib==3.5.1
+multiprocess==0.70.12.2
+numpy==1.22.3
+pandas==1.4.0
+prettytable==2.4.0
+scikit-learn==1.0.2
+scipy==1.7.3
+spectral==0.22.4

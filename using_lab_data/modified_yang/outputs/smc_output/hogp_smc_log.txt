@@ -1,0 +1,15 @@
+---Information about the Lab Based Modified SWAP Hapke Retrieval---
+Sample Name: hogp
+
+Best fit was observed in the following wavelength and angle
+
+Wavelength = 2422.0
+Sensor Zenith = 60.0
+Sensor Azimuth = 252.0
+r**2 = 0.9718718102206969
+
+---Logistic function parameters for the best fit---
+
+K = 39.38383145657989
+psi = 2.0798822017543395
+alpha = 12.229869694793384

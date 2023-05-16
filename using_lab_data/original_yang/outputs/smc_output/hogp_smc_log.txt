@@ -1,0 +1,16 @@
+---Information about the Lab Based Retrieval---
+Sample Name: hogp
+
+Best fit was observed in the following wavelength and angle
+
+Index = 2123
+Wavelength = 2473.0
+Sensor Zenith = 0.0
+Sensor Azimuth = 36.0
+r**2 = 0.9238468338586208
+
+---Logistic function parameters for the best fit---
+
+K = 32.080769288072815
+psi = 138.54491179167164
+alpha = 7.548496300714156

@@ -1,0 +1,16 @@
+---Information about the Lab Based Retrieval---
+Sample Name: nev
+
+Best fit was observed in the following wavelength and angle
+
+Index = 1190
+Wavelength = 1540.0
+Sensor Zenith = 40.0
+Sensor Azimuth = 0.0
+r**2 = 0.8659261598912971
+
+---Logistic function parameters for the best fit---
+
+K = 16.546231293772838
+psi = 291.29999498777767
+alpha = 37.48575098647689

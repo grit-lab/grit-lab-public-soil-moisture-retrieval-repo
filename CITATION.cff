@@ -1,0 +1,14 @@
+cff-version: 1.0.0
+message: "If the provided data or code is incorporated into your work, please cite as suggested below, and also reference the original article:
+'Comparison of Soil Moisture Content Retrieval Models Utilizing Hyperspectral Goniometer Data and Hyperspectral Imagery from an Unmanned Aerial System' by Nayma Binte Nur and Charles M. Bachmann."
+authors:
+  - family-names: Nur
+    given-names: Nayma Binte
+    orcid: https://orcid.org/0000-0002-0039-9598
+  - family-names: Bachmann
+    given-names: Charles M.
+    orcid: https://orcid.org/0000-0002-3466-0483
+title: "Associated Data and Code for 'Comparison of Soil Moisture Content Retrieval Models Utilizing Hyperspectral Goniometer Data and Hyperspectral Imagery from an Unmanned Aerial System' "
+version: 1.0.0
+doi: 10.5281/zenodo.7947074
+date-released: 2022-05-17

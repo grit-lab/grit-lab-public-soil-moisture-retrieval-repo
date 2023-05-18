@@ -52,5 +52,5 @@ python3 run_project.py
 
 This will start the program to retrieve SMC using the corresponding model for the UAS dataset.
 
-Please note that the retrieval of SMC from the UAS dataset is performed through a bootstrapping process. The data is randomly split 80/20 into training and testing datasets. This random splitting is repeated 1000 times, so due to the random nature of assigning the testing & training data, the final output may slightly vary each time you run the program. All outputs from the program will be stored in the``output`` folder.
+Please note that the retrieval of SMC from the UAS dataset is performed through a bootstrapping process. The data is randomly split 80/20 into training and testing datasets. This random splitting is repeated 1000 times, so due to the random nature of assigning the testing & training data, the final output may slightly vary each time you run the program. All outputs from the program will be stored in the``outputs`` folder.
 

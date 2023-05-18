@@ -1,7 +1,6 @@
 # grit-lab-public-soil-moisture-retrieval-repo
 ## Public Release v1.0.1
 
-
 Welcome to our repository. Here, you will find the Python scripts and the lab and UAS dataset that were used in the research article "Comparison of Soil Moisture Content Retrieval Models Utilizing Hyperspectral Goniometer Data and Hyperspectral Imagery from an Unmanned Aerial System" by Nayma Binte Nur and Charles M. Bachmann.
 
 For the most recent updates, kindly visit our GitHub repository at [grit-lab-public-soil-moisture-retrieval-repo](https://github.com/grit-lab/grit-lab-public-soil-moisture-retrieval-repo).
@@ -52,4 +51,12 @@ python3 run_project.py
 This will start the program to retrieve SMC using the corresponding model for the UAS dataset.
 
 Please note that the retrieval of SMC from the UAS dataset is performed through a bootstrapping process. The data is randomly split 80/20 into training and testing datasets. This random splitting is repeated 1000 times, so due to the random nature of assigning the testing & training data, the final output may slightly vary each time you run the program. All outputs from the program will be stored in the``outputs`` folder.
+
+
+## Citing this Repository
+
+If you find the data set or Python scripts in this repository useful for your work, we kindly request that you cite it. The DOI badge below corresponds to the latest version of our software available on Zenodo. 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7949041.svg)](https://doi.org/10.5281/zenodo.7949041)
+
+Click on the badge to access the citation details. Thank you for supporting open science!
 

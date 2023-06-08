@@ -12,3 +12,6 @@ title: "Associated Data and Code for 'Comparison of Soil Moisture Content Retrie
 version: 1.0.1
 doi: 10.5281/zenodo.7949041
 date-released: 2022-05-18
+related_identifiers:
+- type: "isSupplementTo"
+  identifier: "https://doi.org/10.1029/2023JG007381"

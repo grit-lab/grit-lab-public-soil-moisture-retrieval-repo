@@ -1,5 +1,5 @@
 # grit-lab-public-soil-moisture-retrieval-repo
-## Public Release v1.0.2
+## Public Release v1.0.3
 
 Welcome to our repository. Here, you will find the Python scripts and the lab and UAS dataset that were used in the research article "Comparison of Soil Moisture Content Retrieval Models Utilizing Hyperspectral Goniometer Data and Hyperspectral Imagery from an Unmanned Aerial System" by Nayma Binte Nur and Charles M. Bachmann, which has been published in Journal of Geophysical Research - Biogeosciences and is accessible via this link: https://doi.org/10.1029/2023JG007381. 
 

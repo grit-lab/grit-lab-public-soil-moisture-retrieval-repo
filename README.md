@@ -56,7 +56,7 @@ Please note that the retrieval of SMC from the UAS dataset is performed through 
 ## Citing this Repository
 
 If you find the data set or Python scripts in this repository useful for your work, we kindly request that you cite it. The DOI badge below corresponds to the latest version of our software available on Zenodo. 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8021904.svg)](https://doi.org/10.5281/zenodo.8021904)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8021935.svg)](https://doi.org/10.5281/zenodo.8021935)
 
 Click on the badge to access the citation details. Thank you for supporting open science!
 

@@ -108,10 +108,11 @@ def phase_function(b1,c1,b2,c2,t_s, t_0, sensor_azimuth, solar_azimuth):
     
 
     g1 = G1(t_s, t_0, sensor_azimuth, solar_azimuth)
-    g2 = G2(t_s, t_0, sensor_azimuth, solar_azimuth)
-    
-    phase_func = 1 + (b1 * np.cos(g1)) + ((c1/2) * ((3*(np.cos(g1))**2) -1) ) 
-    + (b2 * np.cos(g2)) + ((c2/2) * ((3*(np.cos(g2))**2) -1) )
+    p1 = np.cos(g1)
+    p2 = (1/2) * (3 * (np.cos(g1)) ** 2 - 1)
+    p3 = (1/2) * (5 * (np.cos(g1)) ** 3 - (3 * np.cos(g1)))
+    p4 = (1/8) * (     (35 * ((np.cos(g1)) )** 4)    -     (30 * (np.cos(g1))**2)   +   3 )
+    phase_func = 1 + b1*p1 + b2*p2 + b3*p3 + b4*p4
     
     return phase_func
 

@@ -82,9 +82,9 @@ def logistic_function(phi,K,psi,alpha):
         numpy array: Logistic function values.
     """
     x = psi * phi
-    x = np.float128(x)
-    K = np.float128(K)
-    alpha = np.float128(alpha)
+    x = np.float64(x)
+    K = np.float64(K)
+    alpha = np.float64(alpha)
     log_func = np.where(x >= 0, (K / (1 + (alpha * (np.exp(-x))))),((K * (np.exp(x))) / (alpha + (np.exp(x)))))
     log_func = np.float64(log_func)
     return log_func

@@ -88,15 +88,15 @@ def G2(t_s, t_0, sensor_azimuth, solar_azimuth):
 
 
 
-def phase_function(b1,c1,b2,c2,t_s, t_0, sensor_azimuth, solar_azimuth):
+def phase_function(b1,b2,b3,b4,t_s, t_0, sensor_azimuth, solar_azimuth):
     """
     Calculates the phase function.
 
     Args:
-        b1 (float): B coefficient.
-        c1 (float): C coefficient.
-        b2 (float): B' coefficient.
-        c2 (float): C' coefficient.
+        b1 (float): B1 coefficient.
+        b2 (float): B2 coefficient.
+        b3 (float): B3 coefficient.
+        b4 (float): B4 coefficient.
         t_s (float): Solar zenith angle in degrees.
         t_0 (float): Viewing zenith angle in degrees.
         sensor_azimuth (float): Sensor azimuth angle in degrees.

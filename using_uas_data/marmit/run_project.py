@@ -6,7 +6,7 @@ import scipy
 import csv
 import os
 import numpy as np
-import multiprocessing
+import multiprocess
 import matplotlib.pyplot as plt
 from sklearn.utils import resample
 from matplotlib import colors
@@ -434,7 +434,7 @@ def output_mw(csvfiles_wet):
         flname.close()
     return 0
 
-pool = multiprocessing.Pool()
+pool = multiprocess.Pool()
 # if number of processes is not specified, it uses the number of core
 pool.map(output_mw,  (csvfiles_wet[i][0] for i in range(len(csvfiles_wet))))
 

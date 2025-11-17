@@ -25,24 +25,26 @@ def calc_refl_trans_12(n,theta):
     return r12,t12
 
 
-def calc_refl_trans_21(n):
 
+
+
+def calc_refl_trans_21(n):
     """
-    Calculate reflection and transmission coefficients for layer 2 to 1.
+    Calculate reflection and transmission coefficients for interface 2-1.
 
     Args:
-        n (float): Refractive index.
+        n (float): Refractive index of medium 2 relative to medium 1.
 
     Returns:
-        tuple: A tuple containing:
-            - r21 (float): Reflection coefficient from layer 2 to 1.
-            - t21 (float): transmission coefficient from layer 2 to 1.
+        tuple: Reflection coefficient (r21) and transmission coefficient (t21).
     """
 
+
     r12_prime = (3 * n ** 2 + 2 * n + 1) / (3 * (n + 1) ** 2) - \
-                (2 * n ** 3 * (n ** 2 + 2 * n - 1)) / ((n ** 2 + 1) * (n ** 2 - 1)) + \
-                ((n ** 2 * (n ** 2 + 1)) / (n ** 2 - 1) ** 2) * m.log(n) - \
-                ((n ** 2 * (n ** 2 - 1) ** 2) / (n ** 2 + 1) ** 2 * m.log((n * (n + 1)) / (n - 1)))
+                (2 * n ** 3 * (n ** 2 + 2 * n - 1)) / ((n ** 2 + 1) ** 2 * (n ** 2 - 1)) + \
+                (n ** 2 * (n ** 2 + 1) / (n ** 2 - 1) ** 2) * np.log(n) - \
+                (n ** 2 * (n ** 2 - 1) ** 2 / (n ** 2 + 1) ** 2) * np.log(n * (n + 1) / (n - 1))
+
 
     r21 = 1 - 1 / (n ** 2) * (1 - r12_prime)
 

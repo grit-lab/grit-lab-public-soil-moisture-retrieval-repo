@@ -20,17 +20,18 @@ def calc_refl_trans_12(n,theta):
 
     r12s_nom = a - np.sqrt(n**2 - b**2)
     r12s_denom = a + np.sqrt(n**2 - b**2)
-    r12s = r12s_nom/r12s_denom
+    r12s = np.abs(r12s_nom/r12s_denom)**2
 
-    r12p_nom = np.sqrt(n ** 2 - b ** 2) - (n**2 * a)
-    r12p_denom = np.sqrt(n ** 2 - b ** 2) + (n**2 * a)
-    r12p = r12p_nom / r12p_denom
+    r12p_nom = (n**2 * a) - np.sqrt(n ** 2 - b ** 2)
+    r12p_denom =  (n**2 * a) + np.sqrt(n ** 2 - b ** 2)
+    r12p = np.abs(r12p_nom / r12p_denom)**2
 
     r12 = 1/2 * (r12s + r12p)
 
     t12 = 1 - r12
 
     return r12,t12
+
 
 def calc_refl_trans_21(n):
     """
@@ -43,10 +44,13 @@ def calc_refl_trans_21(n):
         tuple: Reflection coefficient (r21) and transmission coefficient (t21).
     """
 
+
+
     r12_prime = (3 * n ** 2 + 2 * n + 1) / (3 * (n + 1) ** 2) - \
-                (2 * n ** 3 * (n ** 2 + 2 * n - 1)) / ((n ** 2 + 1) * (n ** 2 - 1)) + \
-                ((n ** 2 * (n ** 2 + 1)) / (n ** 2 - 1) ** 2) * m.log(n) - \
-                ((n ** 2 * (n ** 2 - 1) ** 2) / (n ** 2 + 1) ** 2 * m.log((n * (n + 1)) / (n - 1)))
+                (2 * n ** 3 * (n ** 2 + 2 * n - 1)) / ((n ** 2 + 1) ** 2 * (n ** 2 - 1)) + \
+                (n ** 2 * (n ** 2 + 1) / (n ** 2 - 1) ** 2) * np.log(n) - \
+                (n ** 2 * (n ** 2 - 1) ** 2 / (n ** 2 + 1) ** 2) * np.log(n * (n + 1) / (n - 1))
+
 
     r21 = 1 - 1 / (n ** 2) * (1 - r12_prime)
 
